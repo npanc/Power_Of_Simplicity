@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px) {
+  ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    background: rgb(106, 103, 103);
+    padding: 51px;
+    justify-content: center;
+    transform: translateX(-120%);
+    transition: 0.2s all ease-in-out;
+  }
+  .btn {
+    display: none;
+  }
+  .burger-icon {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    padding: 20px;
+  }
+  main {
+    padding: 50px 20px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 120px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
